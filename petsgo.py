@@ -83,6 +83,9 @@ def scan(x,y,im):
             return  True
 def searchitems():
     im = screenshot()
+    (r,g,b) = im.getpixel((2392,420))
+    if (r,g,b) == (255,255,255):
+        pyautogui.click(1196,210)
     exit = False
     x,y = math.floor(width/2), math.floor(height/2)
     rotate = 0
