@@ -129,7 +129,7 @@ def gotovending():
     keypress(8,'w')
     keypress(0.08,'q')
     keypress(8,'w')
-    keypress(0.2,'s')
+    keypress(0.1,'s')
     keypress(0.08,pynput.keyboard.Key.space)
     keypress(2,'w')
     keypress(2.5,'w','d')
