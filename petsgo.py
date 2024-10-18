@@ -56,7 +56,7 @@ def breakcoin(x,y):
     global clickx
     global clicky
     if time.time()-lastmoved > 8:
-        keypress(6,'s',pynput.keyboard.Key.space)
+        keypress(6,'a','s',pynput.keyboard.Key.space)
     if (abs(clickx-x)**2 + abs(clicky-y)**2)**0.5 > 100:
         pyautogui.rightClick(x,y)
         lastmoved = time.time()
